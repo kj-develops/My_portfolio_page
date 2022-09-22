@@ -1,0 +1,42 @@
+body {
+  font-family: 'Abel', sans-serif;
+  background-color:rgb(177 143 176);
+}
+
+/* .container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: sticky;
+} */
+
+container {
+  display: grid;
+  text-align: center;
+}
+
+item{
+  position: relative;
+}
+
+.buttonlist {
+  list-style: none;
+  width: 150px;
+  position: sticky;
+  position: fixed;
+  top: 2px;
+  left: 500px;
+  z-index: 10;
+}
+
+li {
+  list-style: none;
+}
+
+a:hover{
+  color: rgb(164, 92, 162);
+}
+
+header, footer{
+  background-color: white;
+}
