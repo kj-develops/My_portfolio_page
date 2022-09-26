@@ -1,6 +1,6 @@
 body {
   font-family: 'Abel', sans-serif;
-  background-color: rgb(249 131 135);
+  background-color: rgb(144 163 173);
 }
 
 li {
@@ -19,6 +19,6 @@ h1 {
 .meetngreet {
   margin-top: 74px;
   padding: 40px 0 100px 0;
-  background-color: rgb(221 90 102);
+  background-color: rgb(146 157 110)
   text-align: center;
 }
