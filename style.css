@@ -1,45 +1,10 @@
 body {
   font-family: 'Abel', sans-serif;
-  background-color: rgb(177 143 176);
-}
-
-/* .container {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  position: sticky;
-} */
-
-container {
-  display: grid;
-  text-align: center;
-}
-
-item {
-  position: relative;
-}
-
-.buttonlist {
-  list-style: none;
-  width: 150px;
-  position: sticky;
-  position: fixed;
-  top: 2px;
-  left: 500px;
-  z-index: 10;
+  background-color: rgb(249 131 135);
 }
 
 li {
   list-style: none;
-}
-
-a:hover {
-  color: rgb(164, 92, 162);
-}
-
-header,
-footer {
-  background-color: white;
 }
 
 h1 {
@@ -49,4 +14,11 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3em;
+}
+
+.meetngreet {
+  margin-top: 74px;
+  padding: 40px 0 100px 0;
+  background-color: rgb(221 90 102);
+  text-align: center;
 }
