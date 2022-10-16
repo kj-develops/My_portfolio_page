@@ -16,20 +16,57 @@ h1 {
   letter-spacing: 0.3em;
 }
 
+h2, h3{
+  color: rgb(14 20 27);
+  /* background-color: rgba(144, 163, 173, 0.41);
+  border-radius: 60%; */
+}
+
+a{
+  color: #cec9c8;
+}
+
 .floor {
   margin-top: 74px;
-  padding: 40px 0 100px 0;
+  padding: 40px 10px 250px 10px;
   background-color: rgb(146 157 110);
   text-align: center;
   border-radius: 10%;
   color: rgb(14 20 27);
+  border: 5px solid rgb(181 181 178);
 }
 
 #groundfloor p {
-  font-size: larger;
-  color: rgb(14 20 27);
+  font-size: 1.7em;
+}
+
+#firstfloor p{
+  text-align: left;
 }
 
 .image{
   border-radius: 40%;
+}
+
+#codecademy{
+  background-image: url(../kj-develops.github.io/Graphics/git_progress.jpg);
+  background-size: contain;
+  height: 150px;
+  /* border-radius: 20%; */
+  text-align: center;
+  font-size: 75px;
+  /* position: relative; */
+}
+
+#codecademy img{
+  filter: blur(8px);
+}
+
+#text{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 6px 2px rgb(181 181 178);
+  background-color: transparent;
 }
