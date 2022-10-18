@@ -5,6 +5,11 @@ body {
 
 li {
   list-style: none;
+  font-size: 20px;
+}
+
+p{
+  font-size: 20px;
 }
 
 h1 {
@@ -20,6 +25,14 @@ h2, h3{
   color: rgb(14 20 27);
   /* background-color: rgba(144, 163, 173, 0.41);
   border-radius: 60%; */
+}
+
+h2{
+  font-size: 75px;
+}
+
+h3{
+  font-size: 50px;
 }
 
 a{
@@ -41,20 +54,25 @@ a{
 }
 
 #firstfloor p{
-  text-align: left;
+  text-align: center;
+  border-radius: 5%;
 }
 
 .image{
+  border-radius: 10%;
+  border: 1px solid rgb(181 181 178);
+}
+
+#kj_image{
   border-radius: 40%;
 }
 
 #codecademy{
-  background-image: url(../kj-develops.github.io/Graphics/git_progress.jpg);
-  background-size: contain;
+/* background-image: url(../kj-develops.github.io/Graphics/git_progress.jpg); */
+  /* background-size: contain; */
   height: 150px;
   /* border-radius: 20%; */
   text-align: center;
-  font-size: 75px;
   /* position: relative; */
 }
 
@@ -67,6 +85,15 @@ a{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: 6px 2px rgb(181 181 178);
+  /* text-shadow: 6px 2px rgb(181 181 178); */
   background-color: transparent;
+}
+
+.toplist{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.leftlist{
+  text-align: left;
 }

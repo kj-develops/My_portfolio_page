@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@200&display=swap" rel="stylesheet">
 </head>
 
-
+<!-- Start and presentation --> 
 
 <body>
     <div class="header">
@@ -24,38 +24,147 @@
                     <img src="Graphics/button_1.png" alt="Button in elevator" width="5%" title="Elevator pitch"></a>
             </li>
             <li>
-                <a href="#1stfloor">
+                <a href="#firstfloor">
                     <img src="Graphics/button_2.png" alt="Button in elevator" width="5%" title="Education"></a>
             </li>
             <li>
-                <a href="#2ndfloor">
+                <a href="#secondfloor">
                     <img src="Graphics/button_3.png" alt="Button in elevator" width="5%" title="Work experience"></a>
             </li>
 
         </ul>
 
-        <a href="index.html"><img src="Graphics/kj_heis_2.jpg" alt="Me in the elevator" width=50% class="image"></a>
-        <p id="ride"> <h2>Elevator pitch</h2> <br><br>VIDEO OF ELEVATORPITCH<br></p>
+        <a href="index.html"><img src="Graphics/kj_heis_2.jpg" alt="Me in the elevator" width=50% id="kj_image"></a>
+        <p id="ride"> <h2>Elevator pitch</h2> <br><br>##VIDEO OF ELEVATORPITCH##<br>##COMING SOON!##</p>
+        <p>If you want more details, hit the buttons and visit the other floors!</p>
     </div>
+
+    <!-- Education part --> 
 
     <div class="floor" id="firstfloor">
         <h2>Education</h2>
+        <p>Here you can dive in to my education and view some examples of the projects and assingments I have done.</p>
+        <h3>Computer science at UiT The Arctic University of Norway</h3>
         <p>
-            Since January 2021 I have been studying IT. I know Python, software engieneering, HTML, CSS, Javaspcript,
-            Git and more. I also have a masters degree in Philsophy from 2009.
+            Since January 2021 I have been studying selected topics at UiT in Tromsø:
+            <ul  class="leftlist">
+                <li>
+                    <div  class="toplist">General programming/how computers work</div>
+                    <ul>
+                        <li>Programming language used: C</li>
+                        <li>Basic programming skills, introduction to algorithms, 
+                        knowledge of how a computer works</li>
+                        <li>Something I made:</li>
+                    </ul>
+                </li>
+                <li>
+                    <div  class="toplist">Algorithms and Data Structures</div>
+                    <ul>
+                        <li>Programming language used: C</li>
+                        <li>Knowledge of choices, design and implementation of algorithms 
+                            and underlying datastructures. Basic knoledge of dynamic datastructures.
+                            Searching and sorting. Iteration and recursion. 
+                        </li>
+                        <li>Something I made:</li>
+                    </ul>
+                </li>
+                <li>
+                    <div  class="toplist">Object Oriented Programming</div>
+                    <ul>
+                        <li>Programming language used: Python</li>
+                        <li>Incapsulation, classes, inheritence, plymorphy. Design, implement, debug and
+                            measure performance in basic OOP. Programming of basic grapphic-based games (pygame).
+                        </li>
+                        <li>Something I made:</li>
+                        <li>
+                            <p>A boids game inspired by the artificial life program, developed by Craig Reynolds in 1986.
+                                The program is object oriented and uses inheritance for the three classes. 
+                                Sprites and vectors have been used.
+                                Reynolds three rules are implemented and tuned so that the flocks move in a life like way.
+                                There are three birdcages that work as obstacles for the boids.
+                                There is a hoik appearing on screen that scares the boids away. It appears when 
+                                the mouse is clicked.
+                            </p>
+                            <a href="#">
+                            <img src="Graphics/itsboids.jpg" alt="Screeshot of boids game with birds and blue sky" width="50%">
+                        </a>
+                        <li>
+                            <p>
+                                A clone of the game "Mayhem". Title of the game May-hem giving the idea of "17th of may" (Constution
+                                day in Norway) with a flag as a ship, shooting popcorn and hitting marching bands that play when they 
+                                are hit util they dissapear (after 3 hits).
+                                The program is object oriented and uses inheritance for the classes.Sprites and vectors have been used.
+                                Ship with left and right rotation, thrust and shooting. Walls as obstacles in the game world.
+                                Ship can crash with walls and window edge. Gravity acting on ship.Player score increasing and decreasing. 
+                                Score printed in terminal when game ends.
+                            </p>
+                        <a href="#">
+                            <img src="Graphics/Mayhem.jpg" alt="Screenshot of mayhem game in 17th of may theme" width="50%">
+                        </a>
+                        </li>
+                        <li>
+                            <p>
+                                A break-out game in a christmas edition. My very first game ever made!
+                                The ball bounces of the walls and paddle (in a way that you can steer by hitting the left or
+                                right side of the paddle). It breaks bricks by hitting them. When the ball falls down outside the 
+                                paddle you loose, and when all bricks are removed you win.
+                            </p>
+                        <a href="#">
+                            <img src="Graphics/xmasbreak.jpg" alt="Screenshot of brakout game in christmas theme" width="50%">
+                        </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div  class="toplist">Software Engineering</div>
+                    <ul>
+                        <li>Programming language used: Python</li>
+                        <li>Tools and framework: Django, GitLab (repository and planning)</li>
+                        <li>Group assigment the whole semester. Using am agile approach.
+                            Project planning, collaboration, software design, demo, retrospectives.
+                            Test driven development.
+                        </li>
+                        <li>Something I made:
+                        </li>
+                        <li>
+                            <a href="#"><img src="Graphics/logged_in_menu.jpg" alt="Picture of hairdresser app" class="image"></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul> 
         </p>
-        <div id="codecademy"><h3 id="text">Codecademy - Front-End</h3></div>
+        <div id="codecademy"><h3 id="text">Front-End path at Codecademy</h3></div>
         <p>
             I am currently studying the Front-End Engineer path via <a href="https://www.codecademy.com/learn/paths/front-end-engineer-career-path">Codecademy</a>.
             Through these studies I learn how to build websites with HTML, CSS and JavaScript. Basic design theory. 
             React and Redux. Test React with Jest and Enzyme. Functional and cross-browser tests with 
-            Selenium. Deploy React app with Netlify.  
+            Selenium. Deploy React app with Netlify. 
         </p>
+        <p> I plan to reach the end of this Front-End path in December 2022.</p>
+        <p>So far I have done some small projects that can be viewed in <a href="https://github.com/kj-develops"> GitHub:</a></p>
+        <p><a href="https://github.com/kj-develops/dasmoto_art_shop"><img src="Graphics/desmotos.jpg" alt="screenshot of webpage for dasmoto_art_shop" title="View code on GitHub" width="30%" class="image"></a>
+            <a href="https://github.com/kj-develops/kj-develops.github.io"><img src="Graphics/portfolio.jpg" alt="screenshot of portfoliopage" title="View code on GitHub. Inception warning! ;)" width="30%" class="image"></a>
+        </p>
+        <h3>Other studies</h3>
+        <p>I have a masters degree in Philsophy from 2009. My masters thesis 
+            topic were existencial phiolosophy starting from the book called 
+            "Om det tragiske" ("About the tragic") written by the Tromsø based 
+            philosopher Peter Wessel Zapffe. My thesis (in Norwegian!) 
+            can be read  <a href="https://munin.uit.no/handle/10037/2347">via 
+                the research archive at UiT. </a>
+            </p>
+            <p>Before I went to the University I studied a year of photography 
+                and at High School I studied music.</p>
+                <img src="Graphics/foto_kj.jpg" alt="Picture of me holding a camera." class="image">
+
     </div>
 
-    <div class="floor" id="2ndfloor">
+    <!-- Work experience part --> 
+
+    <div class="floor" id="secondfloor">
         <h2>Work experience</h2>
         <p>
+
             My work experience:
         </p>
     </div>
